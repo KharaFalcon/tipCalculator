@@ -1,19 +1,20 @@
 body {
-    background: #333 url('img/cutlery.jpg') center center no-repeat;
+    background: #71adba;
     background-size: cover;
-    color:#532827;  
+    color:#0F5E59;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #container {
-    width: 400px;
-    margin: 40px auto 0;
+    width: 500px;
+    margin: 100px auto 0;
     padding: 50px;
     box-sizing: border-box;
-    background: url('img/paper-pattern.jpg') top left repeat;
+    background: #fff;
     box-shadow: 0 10px 15px -8px #000;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
 }
 
@@ -22,6 +23,7 @@ h1 {
     margin: 0 0 20px;
     padding: 0 0 20px;
     border-bottom: solid 1px #ddd;
+    color:#0F5E59;
 }
 
 form {
@@ -46,7 +48,7 @@ form input[type="text"] {
 }
 
 button {
-    background: #6c2726;
+    background: #b0dbbc;
     color: white;
     border: none;
     border-bottom: solid 4-x #444;
@@ -57,7 +59,7 @@ button {
 }
 
 button:hover {
-    background: #4c2827;
+    background: #0f5e59;
     border-bottom-color: #111;
 }
 
