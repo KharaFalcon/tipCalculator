@@ -48,7 +48,7 @@ form input[type="text"] {
 }
 
 button {
-    background: #b0dbbc;
+    background: #0f5e59;
     color: white;
     border: none;
     border-bottom: solid 4-x #444;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background: #0f5e59;
+    background: #b0dbbc;
     border-bottom-color: #111;
 }
 
