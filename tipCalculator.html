@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <div id="container">
     <h1>Tip Calculator</h1>
 
     <div id="calculator">
-
-        </div>
-    </div>
 
     <form>
         <label>
@@ -34,9 +32,17 @@
         </label>
         <label>
             How many people are sharing the bill?<br>
-            <input type=""
+            <input type="text" id="totalPeople"> people
         </label>
+        <button type="button" id="calculate">Calculate!</button>
     </form>
+    </div><!--Calculator-->
+    <div id="totalTip">
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
+
+    </div><!--totalTTip-->
+    </div><!--Container-->
 
     <script type="text/javascript" src="script.js"></script>
 </body>
